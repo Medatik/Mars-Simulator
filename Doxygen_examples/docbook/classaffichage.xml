@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classaffichage">
+<title>affichage module Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real, parameter ym</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classaffichage_1a4ecf46c9d772c02243ea06f72a1e2545">show</link> (
+d )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="classaffichage_1a4ecf46c9d772c02243ea06f72a1e2545">
+                <title>subroutine affichage::show (d)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

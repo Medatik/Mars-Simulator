@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classreadfromfile">
+<title>readfromfile module Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>integer, dimension(200) landa</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real, dimension(200) tab</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>integer ierror</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>integer ierror1</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>integer i</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>integer, dimension(34) latitude</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real, dimension(200, 34) marsuv</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classreadfromfile_1a71dbbca0ae2bdeef870ffc3421038117">filetoarray</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classreadfromfile_1ad10156233e51b14cac9ef887ac9e8ddb">extraire_colonne</link> (
+lat_titude )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>integer function <link linkend="classreadfromfile_1ac79db5c4bb4f6883e87918b2059a896e">hash</link> (
+la_titude )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real function <link linkend="classreadfromfile_1aeb74f193a9d25ce7c2567de7581db3e3">diminution_uv_profondeur</link> (
+z , Fuv )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Brief Description</title>
+
+<para>Lire le contenu des fichiers sources et les stocker dans des tableaux dans le programme. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para><formalpara><title>Author: </title>
+
+<para>LAHIYANE Atik </para>
+</formalpara>
+</para>
+                <para>Definition at line 1 of file readFromFile.f90</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>readFromFile.f90</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="classreadfromfile_1a71dbbca0ae2bdeef870ffc3421038117">
+                <title>subroutine readfromfile::filetoarray </title> <emphasis>Récupére les valeurs du flux UV à partir du fichier de Patel.</emphasis>
+                
+<para><formalpara><title>Author: </title>
+
+<para>LAHIYANE Atik </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classreadfromfile_1ad10156233e51b14cac9ef887ac9e8ddb">
+                <title>subroutine readfromfile::extraire_colonne (lat_titude)</title> <emphasis>Utilisant le paramètre &apos;lat&apos; et extrait du fichier chargé par FileToarray et extrait la colonne des valeur
+  du flux UV.</emphasis>
+                
+<para><formalpara><title>Author: </title>
+
+<para>LAHIYANE Atik </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classreadfromfile_1ac79db5c4bb4f6883e87918b2059a896e">
+                <title>integer function readfromfile::hash (la_titude)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classreadfromfile_1aeb74f193a9d25ce7c2567de7581db3e3">
+                <title>real function readfromfile::diminution_uv_profondeur (z, Fuv)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

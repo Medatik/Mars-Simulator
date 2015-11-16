@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classgnufor2">
+<title>gnufor2 module Reference</title>
+        <simplesect>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="interfacegnufor2_1_1image">gnufor2::image</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="interfacegnufor2_1_1plot">gnufor2::plot</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="interfacegnufor2_1_1surf">gnufor2::surf</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>character(len=3), parameter default_linewidth</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>character(len=100), parameter default_color1</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>character(len=100), parameter default_color2</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>character(len=100), parameter default_color3</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>character(len=100), parameter default_color4</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>character(len=100), parameter default_terminal</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>character(len=100), parameter default_palette</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>character(len=33) function <link linkend="classgnufor2_1ad30c8259c75f6c3553b9bf450cadbad8">my_date_and_time</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>character(len=nc) function <link linkend="classgnufor2_1ad4c1227651882398258425820e794252">output_terminal</link> (
+terminal )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classgnufor2_1a6a814835903f85d455e7eb7e7128e0b4">image_4</link> (
+x , y , rgb , pause , terminal , filename , persist , input )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classgnufor2_1a93305bbea8cd709b39a12641ad9f5968">image_3</link> (
+rgb , pause , terminal , filename , persist , input )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classgnufor2_1a0096a283f1257a6a630fc1c50dde1622">image_2</link> (
+x , y , gray , pause , palette , terminal , filename , persist , input )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classgnufor2_1ae9cffdc6fcd9d7601de1b98f0180cc9d">image_1</link> (
+gray , pause , palette , terminal , filename , persist , input )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classgnufor2_1aaa559f48981bb630892bd5b8044cfa83">plot3d</link> (
+x , y , z , pause , color , terminal , filename , persist , input , linewidth )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classgnufor2_1a02942726cf99db029ecde111ead358b2">hist</link> (
+x , n , pause , color , terminal , filename , persist , input )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classgnufor2_1a5a060495a795cfe5a1fff61ba779cd76">surf_3</link> (
+x , y , z , pause , palette , terminal , filename , pm3d , contour , persist , input )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classgnufor2_1a52e656f47a4adec5426809c3291cb647">surf_2</link> (
+z , pause , palette , terminal , filename , pm3d , contour , persist , input )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classgnufor2_1aca711dcedfe678fcc6a56addc3f078f8">surf_1</link> (
+xyz , pause , palette , terminal , filename , pm3d , contour , persist , input )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classgnufor2_1a0a9b311ba9a10ee65fff2903c96e826c">plot_4</link> (
+x1 , y1 , x2 , y2 , x3 , y3 , x4 , y4 , style , pause , color1 , color2 , color3 , color4 , terminal , filename , polar , persist , input , linewidth )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classgnufor2_1a87cd3510809ce1c1c796863ec57e9659">plot_3</link> (
+x1 , y1 , x2 , y2 , x3 , y3 , style , pause , color1 , color2 , color3 , terminal , filename , polar , persist , input , linewidth )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classgnufor2_1a75ab3b1a52062cd51a1a9401e3900766">plot_2</link> (
+x1 , y1 , x2 , y2 , style , pause , color1 , color2 , terminal , filename , polar , persist , input , linewidth )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classgnufor2_1ab4ad5510783e4c8d8ee64a610649be01">plot_1</link> (
+x1 , y1 , style , pause , color1 , terminal , filename , polar , persist , input , linewidth )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classgnufor2_1a7725cbeaa8d10d314c773af5050e5038">run_gnuplot</link> (
+command_file_name )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classgnufor2_1ad3d832ac5a5a03d33214993b2180a1eb">get_unit</link> (
+iunit )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="classgnufor2_1ad30c8259c75f6c3553b9bf450cadbad8">
+                <title>character(len=33) function gnufor2::my_date_and_time ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classgnufor2_1ad4c1227651882398258425820e794252">
+                <title>character(len=nc) function gnufor2::output_terminal (terminal)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classgnufor2_1a6a814835903f85d455e7eb7e7128e0b4">
+                <title>subroutine gnufor2::image_4 (x, y, rgb, pause, terminal, filename, persist, input)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classgnufor2_1a93305bbea8cd709b39a12641ad9f5968">
+                <title>subroutine gnufor2::image_3 (rgb, pause, terminal, filename, persist, input)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classgnufor2_1a0096a283f1257a6a630fc1c50dde1622">
+                <title>subroutine gnufor2::image_2 (x, y, gray, pause, palette, terminal, filename, persist, input)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classgnufor2_1ae9cffdc6fcd9d7601de1b98f0180cc9d">
+                <title>subroutine gnufor2::image_1 (gray, pause, palette, terminal, filename, persist, input)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classgnufor2_1aaa559f48981bb630892bd5b8044cfa83">
+                <title>subroutine gnufor2::plot3d (x, y, z, pause, color, terminal, filename, persist, input, linewidth)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classgnufor2_1a02942726cf99db029ecde111ead358b2">
+                <title>subroutine gnufor2::hist (x, n, pause, color, terminal, filename, persist, input)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classgnufor2_1a5a060495a795cfe5a1fff61ba779cd76">
+                <title>subroutine gnufor2::surf_3 (x, y, z, pause, palette, terminal, filename, pm3d, contour, persist, input)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classgnufor2_1a52e656f47a4adec5426809c3291cb647">
+                <title>subroutine gnufor2::surf_2 (z, pause, palette, terminal, filename, pm3d, contour, persist, input)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classgnufor2_1aca711dcedfe678fcc6a56addc3f078f8">
+                <title>subroutine gnufor2::surf_1 (xyz, pause, palette, terminal, filename, pm3d, contour, persist, input)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classgnufor2_1a0a9b311ba9a10ee65fff2903c96e826c">
+                <title>subroutine gnufor2::plot_4 (x1, y1, x2, y2, x3, y3, x4, y4, style, pause, color1, color2, color3, color4, terminal, filename, polar, persist, input, linewidth)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classgnufor2_1a87cd3510809ce1c1c796863ec57e9659">
+                <title>subroutine gnufor2::plot_3 (x1, y1, x2, y2, x3, y3, style, pause, color1, color2, color3, terminal, filename, polar, persist, input, linewidth)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classgnufor2_1a75ab3b1a52062cd51a1a9401e3900766">
+                <title>subroutine gnufor2::plot_2 (x1, y1, x2, y2, style, pause, color1, color2, terminal, filename, polar, persist, input, linewidth)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classgnufor2_1ab4ad5510783e4c8d8ee64a610649be01">
+                <title>subroutine gnufor2::plot_1 (x1, y1, style, pause, color1, terminal, filename, polar, persist, input, linewidth)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classgnufor2_1a7725cbeaa8d10d314c773af5050e5038">
+                <title>subroutine gnufor2::run_gnuplot (command_file_name)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classgnufor2_1ad3d832ac5a5a03d33214993b2180a1eb">
+                <title>subroutine gnufor2::get_unit (iunit)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

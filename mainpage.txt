@@ -1,0 +1,16 @@
+/**
+@mainpage Document Title 
+
+@section Introduction
+
+ Ce document décrit le code source du programme MarsModel.
+
+ Prérequis :
+ 1- Complitaeur de code fortran "gfortran".
+ 2- Logiciel de représentation graphiques GNUPLOT.
+ 3- fichier de valeurs UV de Patel.
+ 4- 
+
+@image html hia.png
+
+*/

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="interfacegnufor2_1_1plot">
+<title>gnufor2::plot interface Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="interfacegnufor2_1_1plot_1a2c2cc1c8b006774cfcbd0909b4d5ec89">plot_1</link> (
+x1 , y1 , style , pause , color1 , terminal , filename , polar , persist , input , linewidth )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="interfacegnufor2_1_1plot_1a1aa5b9d165df671e4564311e2831de47">plot_2</link> (
+x1 , y1 , x2 , y2 , style , pause , color1 , color2 , terminal , filename , polar , persist , input , linewidth )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="interfacegnufor2_1_1plot_1a7d4a18e9e55a155a070f38c998bae5ec">plot_3</link> (
+x1 , y1 , x2 , y2 , x3 , y3 , style , pause , color1 , color2 , color3 , terminal , filename , polar , persist , input , linewidth )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="interfacegnufor2_1_1plot_1a5a17850cac11dba3f9cbf56a218520e0">plot_4</link> (
+x1 , y1 , x2 , y2 , x3 , y3 , x4 , y4 , style , pause , color1 , color2 , color3 , color4 , terminal , filename , polar , persist , input , linewidth )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="interfacegnufor2_1_1plot_1a2c2cc1c8b006774cfcbd0909b4d5ec89">
+                <title>subroutine gnufor2::plot::plot_1 (x1, y1, style, pause, color1, terminal, filename, polar, persist, input, linewidth)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="interfacegnufor2_1_1plot_1a1aa5b9d165df671e4564311e2831de47">
+                <title>subroutine gnufor2::plot::plot_2 (x1, y1, x2, y2, style, pause, color1, color2, terminal, filename, polar, persist, input, linewidth)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="interfacegnufor2_1_1plot_1a7d4a18e9e55a155a070f38c998bae5ec">
+                <title>subroutine gnufor2::plot::plot_3 (x1, y1, x2, y2, x3, y3, style, pause, color1, color2, color3, terminal, filename, polar, persist, input, linewidth)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="interfacegnufor2_1_1plot_1a5a17850cac11dba3f9cbf56a218520e0">
+                <title>subroutine gnufor2::plot::plot_4 (x1, y1, x2, y2, x3, y3, x4, y4, style, pause, color1, color2, color3, color4, terminal, filename, polar, persist, input, linewidth)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

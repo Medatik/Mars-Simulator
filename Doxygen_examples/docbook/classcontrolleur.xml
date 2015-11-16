@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classcontrolleur">
+<title>controlleur module Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real flux</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real flux2</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classcontrolleur_1a1d76db4ff99197899e52986dd4af4f5c">bilan</link> (
+name )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classcontrolleur_1a6f49d5717ed4cfe82f22c3cbb3452608">pert</link> (
+name )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classcontrolleur_1a4d399940a8f70585f9d2274baa97afa2">run</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real function <link linkend="classcontrolleur_1ac0f147826ab5110d2070ff1cf234b729">uv_flux</link> (
+longeur_onde )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real function <link linkend="classcontrolleur_1ad6ab80c0b6abf7aafd31340778c962d9">aire</link> (
+a , b )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classcontrolleur_1a5a0dbf89d924c4cace0bb3352afc1a37">calcul_tout</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real function <link linkend="classcontrolleur_1a6ca6bd0435999d2dbb66e72ce748f6cd">uv_integrale</link> (
+tet , lambda )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classcontrolleur_1a5ec505ec242da02a9ef749d4842d8d1d">diminution_general</link> (
+Fsources , aire_uv )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Brief Description</title>
+
+<para>Ce module contient toutes les méthodes qui font les traitements des données. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para><formalpara><title>Author: </title>
+
+<para>LAHIYANE Atik </para>
+</formalpara>
+</para>
+                <para>Definition at line 1 of file Controlleur.f90</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Controlleur.f90</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="classcontrolleur_1a1d76db4ff99197899e52986dd4af4f5c">
+                <title>subroutine controlleur::bilan (name)</title> <emphasis>Fait le bilan (sources-pertes) en prenant comme paramètre d&apos;entrée le nom
+ de la molécule choisi par l&apos;utilisateur.</emphasis>
+                
+<para><formalpara><title>Author: </title>
+
+<para>LAHIYANE Atik </para>
+</formalpara>
+
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>name</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="classcontrolleur_1a6f49d5717ed4cfe82f22c3cbb3452608">
+                <title>subroutine controlleur::pert (name)</title> <emphasis>Demande à l&apos;utilisateur d&apos;entrée une latitude, un intervalle de longeur d&apos;ondes
+ et le coefficient de destruction de glycine par photon incident et renvoie l&apos;integrale du flux uv
+ correspondant.</emphasis>
+                
+<para><formalpara><title>Author: </title>
+
+<para>LAHIYANE Atik </para>
+</formalpara>
+
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>name</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>Fm</entry>
+                                <entry>
+<para>: flux UV </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="classcontrolleur_1a4d399940a8f70585f9d2274baa97afa2">
+                <title>subroutine controlleur::run </title> <emphasis>fait appel à toutes les fonctions qui vont representé le programme dans sa globalité.</emphasis>
+                
+<para><formalpara><title>Author: </title>
+
+<para>LAHIYANE Atik il sera appelé depuis le &quot;main&quot; correspondant </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classcontrolleur_1ac0f147826ab5110d2070ff1cf234b729">
+                <title>real function controlleur::uv_flux (longeur_onde)</title> <emphasis>Fonction qui renvoie pour une longeur d&apos;onde donnée et une latitude fixée la valeur du flux UV.</emphasis>
+                
+<para><formalpara><title>Author: </title>
+
+<para>LAHIYANE Atik</para>
+</formalpara>
+
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry></entry>
+                                <entry>
+<para>longeur_onde </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>Uv_flux</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="classcontrolleur_1ad6ab80c0b6abf7aafd31340778c962d9">
+                <title>real function controlleur::aire (a, b)</title> <emphasis>Fonction qui integre le flux UV entre deux bornes de longueur d&apos;onde.</emphasis>
+                
+<para><formalpara><title>Author: </title>
+
+<para>LAHIYANE Atik </para>
+</formalpara>
+
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>a, b</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>aire</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="classcontrolleur_1a5a0dbf89d924c4cace0bb3352afc1a37">
+                <title>subroutine controlleur::calcul_tout </title> <emphasis>Créer un fichier .dat qui contient l&apos;évolution du flux UV en fonction de la latitude.</emphasis>
+                
+<para><formalpara><title>Author: </title>
+
+<para>LAHIYANE Atik </para>
+</formalpara>
+
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>UV_vs_latitude.dat</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="classcontrolleur_1a6ca6bd0435999d2dbb66e72ce748f6cd">
+                <title>real function controlleur::uv_integrale (tet, lambda)</title> <emphasis>Renvoie l&apos;integrale de flux UV avec en entrée une latitude et un intervalle de longeur d&apos;ondes.</emphasis>
+                
+<para><formalpara><title>Author: </title>
+
+<para>LAHIYANE Atik </para>
+</formalpara>
+
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>uv_integrale</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="classcontrolleur_1a5ec505ec242da02a9ef749d4842d8d1d">
+                <title>subroutine controlleur::diminution_general (Fsources, aire_uv)</title> <emphasis>Prend en entrée une sources et une valeur de UV
+ et donne en sortie un fichier decrivant la diminution des UV en fonction de la profondeur.</emphasis>
+                
+<para><formalpara><title>Author: </title>
+
+<para>LAHIYANE Atik </para>
+</formalpara>
+
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>uv_integrale</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

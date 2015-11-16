@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="interfacegnufor2_1_1image">
+<title>gnufor2::image interface Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="interfacegnufor2_1_1image_1a85a1f31e10b236383e6ec4d8624634bc">image_1</link> (
+gray , pause , palette , terminal , filename , persist , input )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="interfacegnufor2_1_1image_1abfea891d27efab273b93bb80363e37f9">image_2</link> (
+x , y , gray , pause , palette , terminal , filename , persist , input )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="interfacegnufor2_1_1image_1a269601eb77c6d4a1324db8afdb9f24e6">image_3</link> (
+rgb , pause , terminal , filename , persist , input )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="interfacegnufor2_1_1image_1ad812bf3c03cf739eec9623dec56f33bb">image_4</link> (
+x , y , rgb , pause , terminal , filename , persist , input )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="interfacegnufor2_1_1image_1a85a1f31e10b236383e6ec4d8624634bc">
+                <title>subroutine gnufor2::image::image_1 (gray, pause, palette, terminal, filename, persist, input)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="interfacegnufor2_1_1image_1abfea891d27efab273b93bb80363e37f9">
+                <title>subroutine gnufor2::image::image_2 (x, y, gray, pause, palette, terminal, filename, persist, input)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="interfacegnufor2_1_1image_1a269601eb77c6d4a1324db8afdb9f24e6">
+                <title>subroutine gnufor2::image::image_3 (rgb, pause, terminal, filename, persist, input)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="interfacegnufor2_1_1image_1ad812bf3c03cf739eec9623dec56f33bb">
+                <title>subroutine gnufor2::image::image_4 (x, y, rgb, pause, terminal, filename, persist, input)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

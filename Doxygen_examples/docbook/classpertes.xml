@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classpertes">
+<title>pertes module Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real, parameter t</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real, parameter omega</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real, parameter d</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real, parameter pi</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real, parameter p</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real, parameter rsm</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>function <link linkend="classpertes_1a5a0a861a48d9534be904b410e2a79a21">emitted_solar</link> (
+lamb )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real function <link linkend="classpertes_1af77e9e2229b3615120abe575bc9ba06b">calcul_z</link> (
+lat , <link linkend="classpertes_1a3b24cfbdcdbe202a7f442d2ef2a2a475">t</link> )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real function <link linkend="classpertes_1a5a6c4729d955b6d16132b124f175df1f">emitted_solar_on_top_of_atmosphere</link> (
+lat , lamb )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real function <link linkend="classpertes_1aa39337c54a4c113527c7e0f9f0174d67">flux_surface</link> (
+lat , lamb , density , absorp )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="classpertes_1a5a0a861a48d9534be904b410e2a79a21">
+                <title>function pertes::emitted_solar (lamb)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classpertes_1af77e9e2229b3615120abe575bc9ba06b">
+                <title>real function pertes::calcul_z (lat, t)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classpertes_1a5a6c4729d955b6d16132b124f175df1f">
+                <title>real function pertes::emitted_solar_on_top_of_atmosphere (lat, lamb)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classpertes_1aa39337c54a4c113527c7e0f9f0174d67">
+                <title>real function pertes::flux_surface (lat, lamb, density, absorp)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classsources">
+<title>sources module Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real, parameter fmic_met</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real, parameter glycine</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real fgly</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real pah</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>real, parameter density</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classsources_1ac3583f904e1035ab7a1efd28e6aee30c">show_values</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classsources_1ae3319b0878a42c7ea49222772013543a">gly</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classsources_1a3175a19db2b0ee589c5ef09d3d2055e3">pa</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>subroutine <link linkend="classsources_1a586c8d890952783e72f9d4d2763f961c">research</link> (
+s )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="classsources_1ac3583f904e1035ab7a1efd28e6aee30c">
+                <title>subroutine sources::show_values </title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classsources_1ae3319b0878a42c7ea49222772013543a">
+                <title>subroutine sources::gly </title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classsources_1a3175a19db2b0ee589c5ef09d3d2055e3">
+                <title>subroutine sources::pa </title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classsources_1a586c8d890952783e72f9d4d2763f961c">
+                <title>subroutine sources::research (s)</title> <emphasis></emphasis>
+                
+            </section>
+</section>
